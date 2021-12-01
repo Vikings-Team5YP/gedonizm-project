@@ -1,0 +1,11 @@
+.footer__link{
+  font-size: 1.125rem;
+  line-height:1.334;
+  font-weight: 500;
+  text-decoration: none;
+  color: #3B3748;
+}
+
+.footer__link:hover{
+  opacity: 0.5;
+}

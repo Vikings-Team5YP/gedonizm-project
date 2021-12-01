@@ -1,0 +1,17 @@
+@import url("../vendor/normalize.css");
+@import url("../vendor/TT Firs Neue Regular, Medium/TT Firs Neue.css");
+/* work with Footer */
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__content/footer__content.css");
+@import url("../blocks/footer/__emblemes/footer__emblemes.css");
+@import url("../blocks/footer/__organization/footer__organization.css");
+@import url("../blocks/footer/__love/footer__love.css");
+@import url("../blocks/footer/__social/footer__socail.css");
+@import url("../blocks/footer/__list_title.css/footer__list_title.css");
+@import url("../blocks/footer/__list/footer__list.css");
+@import url("../blocks/footer/__li/footer__li.css");
+@import url("../blocks/footer/__link/footer__link.css");
+@import url("../blocks/footer/__link_icon/footer__link_icon.css");
+@import url("../blocks/footer/__list_social/footer__list_socail.css");
+@import url("../blocks/footer/__li_social/footer__li_social.css");
+@import url("../blocks/footer/__icon/footer__icon.css");

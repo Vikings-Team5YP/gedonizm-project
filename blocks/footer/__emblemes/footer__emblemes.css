@@ -1,0 +1,12 @@
+.footer__emblemes{
+  width: 193px;
+  height: 193px;
+  object-fit: contain;
+  grid-area: emblems;
+}
+
+@media screen and (max-width: 1000px) {
+  .footer__emblemes{
+    display: none;
+  }
+}
