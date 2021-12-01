@@ -1,9 +1,0 @@
-.footer__love{
-grid-area: love;
-}
-
-@media screen and (max-width: 500px) {
-  .footer__love{
-    margin: 0 auto;
-  }
-}

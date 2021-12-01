@@ -1,40 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./pages/index.css">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Гедонизм.Участникам.</title>
 </head>
-<body>
-  <footer class="footer">
-    <div class="footer__content">
-      <img src="./image/emblemes.svg" alt="Эмблема проекта" class="footer__emblemes">
-        <nav class="footer__organization">
-          <h4 class="footer__list_title">организатор:</h4>
-          <ul class="footer__list">
-            <li class="footer__li"><a href="https://homeless.ru/" target="_blank" class="footer__link">Ночлежка<img src="./image/link.svg" alt="эмблема ссылки" class="footer__link_icon"></a></li>
-            <li class="footer__li"><a href="mailto:info@hedonismfest.ru" class="footer__link">info@hedonismfest.ru</a></li>
-          </ul>
-        </nav>
-        <nav class="footer__love">
-          <h4 class="footer__list_title">сделано с любовью:</h4>
-          <ul class="footer__list">
-            <li class="footer__li"><a href="https://fastsol.digital/" target="_blank" class="footer__link">Fastsol Digital <img src="./image/link.svg" alt="эмблема ссылки" class="footer__link_icon"></a></li>
-            <li class="footer__li"><a href="https://shishki.co/" target="_blank"  class="footer__link">shishki.collective<img src="./image/link.svg" alt="эмблема ссылки" class="footer__link_icon"></a></li>
-            <li class="footer__li"><a href="https://practicum.yandex.ru/" target="_blank"  class="footer__link">студентами Яндекс.Практикума<img src="./image/link.svg" alt="эмблема ссылки" class="footer__link_icon"></a></li>
-          </ul>
-        </nav>
-        <nav class="footer__social">
-          <h4 class="footer__list_title">мы в соцсетях:</h4>
-          <ul class="footer__list footer__list_social">
-            <li class="footer__li_social"><a href="https://ru-ru.facebook.com/" target="_blank"  class="footer__link"><img src="./image/Shape-Fasebook.svg" alt="эмблема facebook" class="footer__icon"></a></li>
-            <li class="footer__li_social"><a href="https://www.instagram.com/" target="_blank"  class="footer__link"><img src="./image/Shape-Inst.svg" alt="эмблема instagram" class="footer__icon"></a></li>
-            <li class="footer__li_social"><a href="https://vk.com/" target="_blank"  class="footer__link"><img src="./image/Shape-VK.svg" alt="эмблема VK" class="footer__icon"></a></li>
-          </ul>
-        </nav>
+<body class="page">
+<header class="header">
+    <div class="header__logo-and-location-section">
+        <img src="./images/logo.svg" alt="" class="header__logo">
+        <div class="city-list">
+            <img src="./images/place-mark.svg" alt="" class="city-list__mark">
+            <select name="" id="" class="city-list__list">
+              <option value="">Санкт-Петербург</option>
+              <option value="">Екатеринбург</option>
+              <option value="">Москва</option>
+            </select>
+        </div>
     </div>
-  </footer>
+        <nav class="header__nav">
+            <ul class="header__links">
+                <li class="header__link">куда пойти</li>
+                <li class="header__link">стать участником</li>
+                <li class="header__link">о фестивале</li>
+            </ul>
+        </nav>
+        <div class="header__user-action-section">
+          <div class="header__like-button">
+              <img src="./images/like-icon.svg" alt="" class="header__like-icon">
+              <link rel="stylesheet" href="" class="header__like-button">хочу пойти</link>
+        </div>
+        <button type="button" class="header__support-button">поддержать</button>
+        <button class="header__burger-button" type="button"></button>
+    </div>
+</header>
+<main class="content"></main>
+<footer class="footer"> </footer>
+<script src="./script/index.js"></script>
 </body>
 </html>

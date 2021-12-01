@@ -1,0 +1,23 @@
+.header {
+  background-color: #FFD400;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 40px 13px 40px;
+  box-sizing: border-box;
+  font-family: 'TT Firs Neue';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 133%;
+}
+
+@media screen and (max-width: 699px) {
+  .header {
+     padding: 12px 20px 13px;
+     font-size: 16px;
+  }
+    
+}
