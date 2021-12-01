@@ -1,0 +1,9 @@
+.footer__social{
+  grid-area: social;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__social{
+    margin: 0 auto;
+  }
+}
