@@ -1,5 +1,22 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/TT Firs Neue Regular, Medium/TT Firs Neue.css");
+
+/* Header imports*/
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__logo-and-location-section/header__logo-and-location-section.css');
+@import url('../blocks/header/__user-actions-section/header__user-action-section.css');
+@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/city-list/city-list.css');
+@import url('../blocks/city-list/__list/city-list__list.css');
+@import url('../blocks/city-list/__mark/city-list__mark.css');
+@import url('../blocks/header/__nav/header__nav.css');
+@import url('../blocks/header/__links/header__links.css');
+@import url('../blocks/header/__link/header__link.css');
+@import url('../blocks/header/__like-button/header__like-button.css');
+@import url('../blocks/header/__like-icon/header__like-icon.css');
+@import url('../blocks/header/__support-button/header__support-button.css');
+@import url('../blocks/header/__burger-button/header__burger-button.css');
+
 /* work with Footer */
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__content/footer__content.css");

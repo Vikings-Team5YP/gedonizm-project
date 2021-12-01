@@ -1,0 +1,16 @@
+.header__nav {
+display: flex;
+flex-basis: 451px;
+flex-direction: row;
+justify-content: center;
+padding-right: 40px;
+flex-shrink: 3;
+}
+
+
+@media screen and (max-width: 1124px) {
+    .header__nav{
+        display: none;
+    }
+      
+  }

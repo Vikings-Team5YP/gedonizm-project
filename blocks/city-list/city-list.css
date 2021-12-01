@@ -1,0 +1,12 @@
+.city-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media screen and (max-width: 1124px) {
+    .city-list{
+       display: none;
+    }
+      
+  }
