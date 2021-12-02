@@ -1,0 +1,23 @@
+.content__title{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 96px;
+  letter-spacing: -0.02em;
+  text-transform: lowercase;
+  max-width: 1360px;
+  margin: 40px auto 40px;
+  padding: 0;
+}
+@media (max-width: 1400px){
+  .content__title{
+    margin-left: 10px;
+  }
+}
+@media (max-width: 900px){
+  .content__title{
+  font-size: 44px;
+  line-height: 44px;
+  margin: 20px 20px 0 20px;
+  }
+}

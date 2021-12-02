@@ -1,0 +1,28 @@
+.content__container{
+  max-width: 880px;
+  display: grid;
+  grid-template-columns: 117px 346px 1fr;
+  grid-template-areas:
+  'number heading text';
+  margin: 0 auto;
+  border-bottom: solid #EBE9ED 1px;
+}
+@media (max-width: 1280px){
+  .content__container{
+    grid-template-columns: 68px 1fr;
+    grid-template-rows: 47px;
+    grid-template-areas:
+    'number heading'
+    'text text';
+  }
+}
+@media (max-width: 900px){
+  .content__container{
+    grid-template-rows: 47px 1fr;
+    row-gap: 16px;
+  }
+  .content__container:first-child{
+    margin-top: 20px;
+    border-top: solid #EBE9ED 1px;
+  }
+}
