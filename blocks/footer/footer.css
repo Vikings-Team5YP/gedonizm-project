@@ -4,3 +4,9 @@
     width: 100%;
     font-family: 'TT Firs Neue', Arial, sans-serif;
 }
+
+@media screen and (max-width: 500px){
+  .footer{
+    display: none;
+  }
+}
