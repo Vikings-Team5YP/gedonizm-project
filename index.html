@@ -84,7 +84,7 @@
   </div>
 </section>
 
-<section class="form-section step-one" style="display: none;"> 
+<section class="form-section step-one" style="display: none;">
   <h1 class="form-section__title">стать участником</h1>
   <div>
     <span class="form-section__step">шаг 1 из 4</span>
@@ -93,7 +93,7 @@
         <h2 class="form-section__subtitle">выберите категорию</h2>
         <p class="form-section__description"></p>
       </div>
-      <form action="" class="form-section__form">
+      <form action="save" class="form-section__form">
         <label for="cafe-radio">
           <input id="cafe-radio" type="radio" class="form-section__radio" name ="category">
           <span class="form-section__category-radio"> кафе/бар/ресторан</span>
@@ -110,36 +110,33 @@
           <input id="other-radio" type="radio" class="form-section__radio" name ="category">
           <span class="form-section__category-radio"> другое</span>
         </label>
-    
+
         <div class="form-section__buttons">
           <button class="form-section__button form-section__button_type_transparent">отмена</button>
           <button class="form-section__button form-section__button_type_colored">далее</button>
         </div>
-    </div>
     </form>
   </div>
-
-
+  </div>
 </section>
 
-<section class="form-section cafe-step-two">
+<section class="form-section cafe-step-two" style="display: none;">
   <h1 class="form-section__title">стать участником</h1>
   <div>
     <span class="form-section__step">шаг 2 из 4</span>
     <div class="form-section__container">
       <div class="form-section__info">
         <h2 class="form-section__subtitle">заполните форму</h2>
-        <p class="form-section__description">Для участия вы можете выбрать:
+        <p class="form-section__description">Для участия вы можете выбрать:</p>
           <ul class="form-section__ul">
           <li class="form-section__ul-li">определенную позицию из меню</li>
           <li class="form-section__ul-li">группу позиций</li>
           <li class="form-section__ul-li">процент от продаж определенных позиций или всего меню</li>
           </ul>
-        </p>
       </div>
-      <form action="" class="form-section__form form-section__form_step_2">
-        <label for="cafe-radio" style="height:fit-content;">
-          <input id="cafe-radio" type="radio" class="form-section__radio" name ="category" checked>
+      <form action="save" class="form-section__form form-section__form_step_2">
+        <label for="cafe-bar-restorane" style="height:fit-content;">
+          <input id="cafe-bar-restorane" type="radio" class="form-section__radio" name ="category" checked>
           <span class="form-section__category-radio"> кафе/бар/ресторан</span>
         </label>
         <div class="form-section__labeled-input">
@@ -147,34 +144,123 @@
           <input id="city" class="form-section__input" type="text" placeholder="выберите из списка">
         </div>
         <div class="form-section__labeled-input">
-          <label for="city" class="form-section__label">название заведения</label>
-          <input id="city" class="form-section__input" type="text" placeholder="введите название заведения">
+          <label for="name" class="form-section__label">название заведения</label>
+          <input id="name" class="form-section__input" type="text" placeholder="введите название заведения">
         </div>
         <div class="form-section__labeled-input">
-          <label for="city" class="form-section__label">контактное лицо</label>
-          <input id="city" class="form-section__input" type="text" placeholder="введите ФИО">
+          <label for="initials" class="form-section__label">контактное лицо</label>
+          <input id="initials" class="form-section__input" type="text" placeholder="введите ФИО">
         </div>
         <div class="form-section__labeled-input">
-          <label for="city" class="form-section__label">телефон для связи с организатором</label>
-          <input id="city" class="form-section__input" type="text" value = "+7(">
+          <label for="number" class="form-section__label">телефон для связи с организатором</label>
+          <input id="number" class="form-section__input" type="text" value = "+7(">
         </div>
         <div class="form-section__labeled-input">
-          <label for="city" class="form-section__label">описание</label>
-          <input id="city" class="form-section__input" type="text" placeholder="Укажите, что из меню будет принимать участие в акции
-
-          ">
+          <label for="description" class="form-section__label">описание</label>
+          <input id="description" class="form-section__input" type="text" placeholder="Укажите, что из меню будет принимать участие в акции">
         </div>
-
-        
-      
-
-
-
-
+        <div class="form-section__buttons">
+          <button class="form-section__button form-section__button_type_transparent">назад</button>
+          <button class="form-section__button form-section__button_type_colored">далее</button>
+        </div>
       </form>
+    </div>
+  </div>
+</section>
 
-
+<section class="form-section masterclass-step-two" style="display: none;">
+  <h1 class="form-section__title">стать участником</h1>
+  <div>
+    <span class="form-section__step">шаг 2 из 4</span>
+    <div class="form-section__container">
+      <div class="form-section__info">
+        <h2 class="form-section__subtitle">заполните форму</h2>
+        <p class="form-section__description">Определитесь с типом мероприятия — лекция, консультация или мастер-класс.</p>
+        <p class="form-section__description">Когда люди удут покупать билеты, вам будут приходить уведомления на электронную почту</p>
       </div>
+      <form action="save" class="form-section__form form-section__form_step_2">
+        <label for="masterclass" style="height:fit-content;">
+          <input id="masterclass" type="radio" class="form-section__radio" name ="category" checked>
+          <span class="form-section__category-radio">мастер-класс/лекция</span>
+        </label>
+        <div class="form-section__masterclassradiobox">
+          <label for="masterclass-radio_online" class="form-section__lebel_radio">
+            <input id="masterclass-radio_online" type="radio" class="form-section__masterclass-radio" name ="masterclass-category" checked>
+            <span class="form-section__pseudo-radio"></span>
+            <span class="form-section__category-masterclass-radio">онлайн</span>
+          </label>
+          <label for="masterclass-radio_offline" class="form-section__lebel_radio">
+            <input id="masterclass-radio_offline" type="radio" class="form-section__masterclass-radio" name ="masterclass-category" >
+            <span class="form-section__pseudo-radio"></span>
+            <span class="form-section__category-masterclass-radio">оффлайн</span>
+          </label>
+        </div>
+        <div class="form-section__labeled-input">
+          <label for="city-masterclass" class="form-section__label">город</label>
+          <input id="city-masterclass" class="form-section__input" type="text" placeholder="выберите из списка">
+        </div>
+        <div class="form-section__labeled-input">
+          <label for="name-masterclass" class="form-section__label">название мероприятия </label>
+          <input id="name-masterclass" class="form-section__input" type="text" placeholder="введите название">
+        </div>
+        <div class="form-section__labeled-input">
+          <label for="date-masterclass" class="form-section__label">дата проведения</label>
+          <input id="date-masterclass" class="form-section__input" type="text" placeholder="укажите дату в формате дд.мм.гггг">
+        </div>
+        <div class="form-section__labeled-input">
+          <label for="initials-masterclass" class="form-section__label">контактное лицо</label>
+          <input id="initials-masterclass" class="form-section__input" type="text" placeholder="введите ФИО">
+        </div>
+        <div class="form-section__labeled-input">
+          <label for="number-masterclass" class="form-section__label">телефон для связи с организатором</label>
+          <input id="number-masterclass" class="form-section__input" type="text" value = "+7(">
+        </div>
+        <div class="form-section__buttons">
+          <button class="form-section__button form-section__button_type_transparent">назад</button>
+          <button class="form-section__button form-section__button_type_colored">далее</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="form-section masterclass-step-three">
+  <h1 class="form-section__title">стать участником</h1>
+  <div>
+    <span class="form-section__step">шаг 3 из 4</span>
+    <div class="form-section__container">
+      <div class="form-section__info">
+        <h2 class="form-section__subtitle">укажите контакты и часы работы</h2>
+        <p class="form-section__description">Эти данные появятся в описании карточки вашего мероприятия в нашем каталоге событий</p>
+      </div>
+      <form action="save" class="form-section__form form-section__form_step_2">
+        <div class="form-section__labeled-input">
+          <label for="time-masterclass" class="form-section__label">время проведения</label>
+          <input id="time-masterclass" class="form-section__input" type="text" placeholder="например: 18:00-22:00">
+        </div>
+        <div class="form-section__labeled-input">
+          <label for="adres-masterclass" class="form-section__label">адрес проведения</label>
+          <input id="adres-masterclass" class="form-section__input" type="text" placeholder="каждый адрес с новой строки">
+        </div>
+        <div class="form-section__labeled-input">
+          <label for="number-for-masterclass" class="form-section__label">номер телефона для бронирования</label>
+          <input id="number-for-masterclass" class="form-section__input" type="text" value = "+7(">
+        </div>
+        <div class="form-section__labeled-input">
+          <label for="price-masterclass" class="form-section__label">стоимость участия</label>
+          <input id="price-masterclass" class="form-section__input" type="text" placeholder="укажите стоимость в рублях">
+        </div>
+        <div class="form-section__labeled-input">
+          <label for="description-masterclass" class="form-section__label">описание</label>
+          <input id="description-masterclass" class="form-section__input" type="text" placeholder="Напишите небольшой анонс вашего местер-класса или лекции. Чем мероприятие будет полезно, чему посвящено">
+        </div>
+        <div class="form-section__buttons">
+          <button class="form-section__button form-section__button_type_transparent">назад</button>
+          <button class="form-section__button form-section__button_type_colored">далее</button>
+        </div>
+      </form>
+    </div>
+  </div>
 </section>
 
 </main>
