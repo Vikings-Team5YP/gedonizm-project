@@ -2,6 +2,7 @@
     margin: 0;
     width: 100%;
     height:100vh;
-    display:flex; 
-    flex-direction:column; 
+    display:flex;
+    flex-direction:column;
+    font-family: 'TT Firs Neue', Arial, sans-serif;
 }
