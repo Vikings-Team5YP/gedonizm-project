@@ -37,50 +37,145 @@
         <button class="header__burger-button" type="button"></button>
     </div>
 </header>
-<main class="content">
+<main class="main">
 
-<h1 class="content__title">стать участником</h1>
-<h2 class="content__subtitle">как участвовать?</h2>
-<ul class="content__list">
-  <li class="content__container">
-    <p class="content__number">1</p>
-    <h3 class="content__heading">выбор категории</h3>
-    <p class="content__text">Определите, как вы хотите
-      поддержать акцию: продавать напитки, блюда, провести
-      мастер-класс или каким-то другим способом</p>
-  </li>
-  <li class="content__container">
-    <p class="content__number">2</p>
-    <h3 class="content__heading">фото и описание</h3>
-    <p class="content__text">Подготовьте описание и фото
-      вашего заведения. Это нужно для создания карточки
-      в нашем каталоге событий</p>
-  </li>
-  <li class="content__container">
-    <p class="content__number">3</p>
-    <h3 class="content__heading">ссылки и соцсети</h3>
-    <p class="content__text">Опубликуйте ссылку на вашу
-      карточку в соцсетях, расскажите у себя на сайте,
-      чтобы больше людей узнали о вашем участии</p>
-  </li>
-  <li class="content__container">
-    <p class="content__number">4</p>
-    <h3 class="content__heading">координатор</h3>
-    <p class="content__text">Далее с вами свяжется
-      координатор акции, который будет помогать по
-      любым вопросам до и во время акции</p>
-  </li>
-  <li class="content__container">
-    <p class="content__number">5</p>
-    <h3 class="content__heading">Перевод средств</h3>
-    <p class="content__text">После акции переведите
-      собранные пожертвования в Ночлежку через сайт
-      или по безналичному расчету</p>
-  </li>
-</ul>
-<div class="content__box">
-  <button type="button" class="content__button">заполнить форму</button>
-</div>
+<section class="content">
+  <h1 class="content__title">стать участником</h1>
+  <h2 class="content__subtitle">как участвовать?</h2>
+  <ul class="content__list">
+    <li class="content__container">
+      <p class="content__number">1</p>
+      <h3 class="content__heading">выбор категории</h3>
+      <p class="content__text">Определите, как вы хотите
+        поддержать акцию: продавать напитки, блюда, провести
+        мастер-класс или каким-то другим способом</p>
+    </li>
+    <li class="content__container">
+      <p class="content__number">2</p>
+      <h3 class="content__heading">фото и описание</h3>
+      <p class="content__text">Подготовьте описание и фото
+        вашего заведения. Это нужно для создания карточки
+        в нашем каталоге событий</p>
+    </li>
+    <li class="content__container">
+      <p class="content__number">3</p>
+      <h3 class="content__heading">ссылки и соцсети</h3>
+      <p class="content__text">Опубликуйте ссылку на вашу
+        карточку в соцсетях, расскажите у себя на сайте,
+        чтобы больше людей узнали о вашем участии</p>
+    </li>
+    <li class="content__container">
+      <p class="content__number">4</p>
+      <h3 class="content__heading">координатор</h3>
+      <p class="content__text">Далее с вами свяжется
+        координатор акции, который будет помогать по
+        любым вопросам до и во время акции</p>
+    </li>
+    <li class="content__container">
+      <p class="content__number">5</p>
+      <h3 class="content__heading">Перевод средств</h3>
+      <p class="content__text">После акции переведите
+        собранные пожертвования в Ночлежку через сайт
+        или по безналичному расчету</p>
+    </li>
+  </ul>
+  <div class="content__box">
+    <button type="button" class="content__button">заполнить форму</button>
+  </div>
+</section>
+
+<section class="form-section step-one" style="display: none;"> 
+  <h1 class="form-section__title">стать участником</h1>
+  <div>
+    <span class="form-section__step">шаг 1 из 4</span>
+    <div class="form-section__container">
+      <div class="form-section__info">
+        <h2 class="form-section__subtitle">выберите категорию</h2>
+        <p class="form-section__description"></p>
+      </div>
+      <form action="" class="form-section__form">
+        <label for="cafe-radio">
+          <input id="cafe-radio" type="radio" class="form-section__radio" name ="category">
+          <span class="form-section__category-radio"> кафе/бар/ресторан</span>
+        </label>
+        <label for="lection-radio">
+          <input id="lection-radio" type="radio" class="form-section__radio" name ="category">
+          <span class="form-section__category-radio"> мастер-класс/лекция</span>
+        </label>
+        <label for="party-radio">
+          <input id="party-radio" type="radio" class="form-section__radio" name ="category">
+          <span class="form-section__category-radio"> посиделки/вечеринка</span>
+        </label>
+        <label for="other-radio">
+          <input id="other-radio" type="radio" class="form-section__radio" name ="category">
+          <span class="form-section__category-radio"> другое</span>
+        </label>
+    
+        <div class="form-section__buttons">
+          <button class="form-section__button form-section__button_type_transparent">отмена</button>
+          <button class="form-section__button form-section__button_type_colored">далее</button>
+        </div>
+    </div>
+    </form>
+  </div>
+
+
+</section>
+
+<section class="form-section cafe-step-two">
+  <h1 class="form-section__title">стать участником</h1>
+  <div>
+    <span class="form-section__step">шаг 2 из 4</span>
+    <div class="form-section__container">
+      <div class="form-section__info">
+        <h2 class="form-section__subtitle">заполните форму</h2>
+        <p class="form-section__description">Для участия вы можете выбрать:
+          <ul class="form-section__ul">
+          <li class="form-section__ul-li">определенную позицию из меню</li>
+          <li class="form-section__ul-li">группу позиций</li>
+          <li class="form-section__ul-li">процент от продаж определенных позиций или всего меню</li>
+          </ul>
+        </p>
+      </div>
+      <form action="" class="form-section__form form-section__form_step_2">
+        <label for="cafe-radio" style="height:fit-content;">
+          <input id="cafe-radio" type="radio" class="form-section__radio" name ="category" checked>
+          <span class="form-section__category-radio"> кафе/бар/ресторан</span>
+        </label>
+        <div class="form-section__labeled-input">
+          <label for="city" class="form-section__label">город</label>
+          <input id="city" class="form-section__input" type="text" placeholder="выберите из списка">
+        </div>
+        <div class="form-section__labeled-input">
+          <label for="city" class="form-section__label">название заведения</label>
+          <input id="city" class="form-section__input" type="text" placeholder="введите название заведения">
+        </div>
+        <div class="form-section__labeled-input">
+          <label for="city" class="form-section__label">контактное лицо</label>
+          <input id="city" class="form-section__input" type="text" placeholder="введите ФИО">
+        </div>
+        <div class="form-section__labeled-input">
+          <label for="city" class="form-section__label">телефон для связи с организатором</label>
+          <input id="city" class="form-section__input" type="text" value = "+7(">
+        </div>
+        <div class="form-section__labeled-input">
+          <label for="city" class="form-section__label">описание</label>
+          <input id="city" class="form-section__input" type="text" placeholder="Укажите, что из меню будет принимать участие в акции
+
+          ">
+        </div>
+
+        
+      
+
+
+
+
+      </form>
+
+
+      </div>
+</section>
 
 </main>
   <footer class="footer">

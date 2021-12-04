@@ -1,0 +1,13 @@
+.form-section__button {
+  border: none;
+  width: 204px;
+  height: 48px;
+  background-color: transparent;
+  border-radius: 26px;
+  font-family: TT Firs Neue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  box-sizing: border-box;
+}

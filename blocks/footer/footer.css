@@ -3,6 +3,7 @@
     padding: 80px 0;
     width: 100%;
     font-family: 'TT Firs Neue', Arial, sans-serif;
+    margin-top: auto; 
 }
 
 @media screen and (max-width: 500px){

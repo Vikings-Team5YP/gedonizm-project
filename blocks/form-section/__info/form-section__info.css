@@ -1,0 +1,7 @@
+.form-section__info {
+  display: flex;
+  flex-direction: column;
+  max-width: 309px;
+  padding-right: 40px;
+  
+}

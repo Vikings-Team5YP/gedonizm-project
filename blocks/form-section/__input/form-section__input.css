@@ -1,0 +1,13 @@
+.form-section__input {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 26px;
+  width: 100%;
+  border: 2px solid #96949E;
+  font-family: TT Firs Neue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  box-sizing: border-box;
+}
