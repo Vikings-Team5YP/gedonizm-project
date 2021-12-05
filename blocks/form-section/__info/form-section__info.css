@@ -5,3 +5,12 @@
   padding-right: 40px;
   
 }
+
+@media screen and (max-width: 599px) {
+  .form-section__info {
+    padding-right: 0;
+    max-width: none;
+    padding: 0 20px;
+  }
+  }
+

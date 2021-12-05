@@ -8,3 +8,10 @@ margin: 0;
 margin-bottom: 12px;
 
 }
+
+@media screen and (max-width: 599px) {
+  .form-section__subtitle {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}

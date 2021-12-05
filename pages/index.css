@@ -1,7 +1,7 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/TT Firs Neue Regular, Medium/TT Firs Neue.css");
-
 @import url('../blocks/page/page.css');
+@import url('../blocks/main/main.css');
 
 /* Header imports*/
 @import url('../blocks/header/header.css');
@@ -66,7 +66,7 @@
 @import url('../blocks/form-section/__description/form-section__description.css');
 @import url('../blocks/form-section/__ul/form-section__ul.css');
 @import url('../blocks/form-section/__ul-li/form-section__ul-li.css');
-@import url('../blocks/form-section/__form-step-2-3/form-section__form-step-2-3.css');
 @import url('../blocks/form-section/__labeled-input/form-section__labeled-input.css');
 @import url('../blocks/form-section/__label/form-section__label.css');
 @import url('../blocks/form-section/__input/form-section__input.css');
+@import url('../blocks/form-section/__info-and-form-container/form-section__info-and-form-container.css');

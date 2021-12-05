@@ -4,3 +4,11 @@
   margin-top: 12px;
   margin-bottom: 40px;
 }
+
+@media screen and (max-width: 899px) {
+  .form-section__container {
+    flex-direction: column;
+  }
+  
+}
+
