@@ -5,4 +5,7 @@ font-weight: normal;
 font-size: 18px;
 line-height: 24px;
 margin: 0;
+display: grid;
+grid-template-columns: 1fr;
+gap: 14px;
 }

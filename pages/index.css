@@ -69,9 +69,16 @@
 @import url('../blocks/form-section/__labeled-input/form-section__labeled-input.css');
 @import url('../blocks/form-section/__label/form-section__label.css');
 @import url('../blocks/form-section/__input/form-section__input.css');
-@import url("../blocks/form-section/__masterclassradiobox/form-section__masterclassradiobox.css");
+@import url('../blocks/form-section/__paragraph/form-section__paragraph.css');
+@import url('../blocks/form-section/__form/_step/form-section__form_step_2.css');
+@import url('../blocks/form-section/_active/form-section_active.css');
+
+
+
+/* masterclass */
+@import url("../blocks/form-section/__radio-box/form-section__radio-box.css");
 @import url("../blocks/form-section/__masterclass-radio/form-section__masterclass-radio.css");
-@import url("../blocks/form-section/__category-masterclass-radio/form-section__category-masterclass-radio.css");
+
 @import url("../blocks/form-section/__pseudo-radio/form-section__pseudo-radio.css");
 @import url("../blocks/form-section/__lebel_radio/form-section__lebel_radio.css");
 @import url('../blocks/form-section/__info-and-form-container/form-section__info-and-form-container.css');

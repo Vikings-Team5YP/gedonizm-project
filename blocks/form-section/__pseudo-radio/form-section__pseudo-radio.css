@@ -6,7 +6,7 @@
   background-image: url("../../../images/radio.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  margin: auto 0;
+ padding-right: 9px;
 }
 
 .form-section__masterclass-radio:checked + .form-section__pseudo-radio{
