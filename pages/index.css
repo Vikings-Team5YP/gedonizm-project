@@ -1,7 +1,7 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/TT Firs Neue Regular, Medium/TT Firs Neue.css");
-
 @import url('../blocks/page/page.css');
+@import url('../blocks/main/main.css');
 
 /* Header imports*/
 @import url('../blocks/header/header.css');
@@ -74,3 +74,4 @@
 @import url("../blocks/form-section/__category-masterclass-radio/form-section__category-masterclass-radio.css");
 @import url("../blocks/form-section/__pseudo-radio/form-section__pseudo-radio.css");
 @import url("../blocks/form-section/__lebel_radio/form-section__lebel_radio.css");
+@import url('../blocks/form-section/__info-and-form-container/form-section__info-and-form-container.css');

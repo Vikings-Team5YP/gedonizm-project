@@ -1,7 +1,13 @@
 .form-section {
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1360px;
+  background-color: #FCFAF7;
+  height: 100%;
+}
+
+@media screen and (max-width: 599px) {
+  .form-section {
+  
+  }
 }
