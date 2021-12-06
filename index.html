@@ -41,7 +41,6 @@
   </header>
   <main class="main">
 
-
     <section class="form-section main-section form-section_active">
       <h1 class="form-section__title">стать участником</h1>
       <h2 class="content__subtitle">как участвовать?</h2>
@@ -285,7 +284,7 @@
       </form>
     </div>
   </div>
-</section>
+    </section>
 
     <section class="form-section masterclass-step-three">
   <h1 class="form-section__title">стать участником</h1>
@@ -324,7 +323,114 @@
       </form>
     </div>
   </div>
-</section>
+    </section>
+
+
+    <section class="form-section gathering-step-two">
+      <h1 class="form-section__title">стать участником</h1>
+      <div class="form-section__info-and-form-container">
+        <span class="form-section__step">шаг 2 из 4</span>
+        <div class="form-section__container">
+          <div class="form-section__info">
+            <h2 class="form-section__subtitle">заполните форму</h2>
+            <div class="form-section__description">
+              <p class="form-section-paragraph">Организуйте свою посиделку, вечеринку или концерт.</p>
+              <p class="form-section-paragraph">Пригласите друзей и тех, кто захочет помочь Ночлежке.</p>
+              <p class="form-section-paragraph">Установите пожертвование, например кусочек пирога за любую комфортную сумму</p>
+            </div>
+          </div>
+          <form action="save" class="form-section__form form-section__form_step_2">
+            <label for="gathering">
+              <input id="gathering" type="radio" class="form-section__radio" name ="category" checked>
+              <span class="form-section__category-radio">посиделки/вечеринка</span>
+            </label>
+            <div class="form-section__labeled-input">
+              <label for="city-gathering" class="form-section__label">город</label>
+              <input id="city-gathering" class="form-section__input" type="text" placeholder="выберите из списка">
+            </div>
+            <div class="form-section__labeled-input">
+              <label for="name-gathering" class="form-section__label">название мероприятия </label>
+              <input id="name-gathering" class="form-section__input" type="text" placeholder="введите название">
+            </div>
+            <div class="form-section__radio-box">
+              <label for="gathering-radio_online" class="form-section__lebel_radio">
+                <input id="gathering-radio_online" type="radio" class="form-section__masterclass-radio" name ="gathering-category" checked>
+                <span class="form-section__pseudo-radio"></span>
+                онлайн
+              </label>
+              <label for="gathering-radio_offline" class="form-section__lebel_radio">
+                <input id="gathering-radio_offline" type="radio" class="form-section__masterclass-radio" name ="gathering-category" >
+                <span class="form-section__pseudo-radio"></span>
+                оффлайн
+              </label>
+            </div>
+            <div class="form-section__labeled-input">
+              <label for="date-gathering" class="form-section__label">дата проведения</label>
+              <input id="date-gathering" class="form-section__input" type="text" placeholder="укажите дату в формате дд.мм.гггг">
+            </div>
+            <div class="form-section__labeled-input">
+              <label for="initials-gathering" class="form-section__label">контактное лицо</label>
+              <input id="initials-gathering" class="form-section__input" type="text" placeholder="введите ФИО">
+            </div>
+            <div class="form-section__labeled-input">
+              <label for="number-gathering" class="form-section__label">телефон для связи с организатором</label>
+              <input id="number-gathering" class="form-section__input" type="text" value = "+7(">
+            </div>
+            <div class="form-section__buttons">
+              <button type="button" class="form-section__button form-section__button_type_transparent navigation-button" value="step-one">назад</button>
+              <button type="button" class="form-section__button form-section__button_type_colored navigation-button" value="masterclass-step-three">далее</button>
+            </div>
+          </form>
+        </div>
+      </div>
+        </section>
+
+    <section class="form-section gathering-step-three">
+      <h1 class="form-section__title">стать участником</h1>
+      <div class="form-section__info-and-form-container">
+        <span class="form-section__step">шаг 3 из 4</span>
+        <div class="form-section__container">
+          <div class="form-section__info">
+            <h2 class="form-section__subtitle">укажите контакты и часы работы</h2>
+            <p class="form-section__description">Эти данные появятся в описании карточки вашего мероприятия в нашем каталоге событий</p>
+          </div>
+          <form action="save" class="form-section__form form-section__form_step_2">
+            <div class="form-section__labeled-input">
+              <label for="time-gathering" class="form-section__label">время проведения</label>
+              <input id="time-gathering" class="form-section__input" type="text" placeholder="например: 18:00-22:00">
+            </div>
+            <div class="form-section__labeled-input">
+              <label for="adres-gathering" class="form-section__label">адрес проведения</label>
+              <input id="adres-gathering" class="form-section__input" type="text" placeholder="каждый адрес с новой строки">
+            </div>
+            <div class="form-section__labeled-input">
+              <label for="number-for-gathering" class="form-section__label">номер телефона для бронирования</label>
+              <input id="number-for-gathering" class="form-section__input" type="text" value = "+7(">
+            </div>
+            <div class="form-section__labeled-input">
+              <label for="price-gathering" class="form-section__label">стоимость участия</label>
+              <input id="price-gathering" class="form-section__input" type="text" placeholder="укажите стоимость в рублях">
+            </div>
+            <div class="form-section__labeled-input">
+              <label for="site-gathering" class="form-section__label">ссылка на сайт</label>
+              <input id="site-gathering" class="form-section__input" type="text" value = "https://">
+            </div>
+            <div class="form-section__labeled-input">
+              <label for="social-gathering" class="form-section__label">ссылки на соцсети</label>
+              <input id="social-gathering" class="form-section__input" type="text" placeholder = "каждую ссылку с новой строки">
+            </div>
+            <div class="form-section__labeled-input">
+              <label for="description-gathering" class="form-section__label">описание</label>
+              <input id="description-gathering" class="form-section__input" type="text" placeholder="Напишите небольшой анонс вашего местер-класса или лекции. Чем мероприятие будет полезно, чему посвящено">
+            </div>
+            <div class="form-section__buttons">
+              <button type="button" class="form-section__button form-section__button_type_transparent navigation-button" value="masterclass-step-two">назад</button>
+              <button type="button" class="form-section__button form-section__button_type_colored navigation-button">далее</button>
+            </div>
+          </form>
+        </div>
+      </div>
+        </section>
 
     <section class="form-section other-step-two">
       <h1 class="form-section__title">стать участником</h1>
@@ -417,8 +523,6 @@
       </div>
 
     </section>
-
-
 
   </main>
 
