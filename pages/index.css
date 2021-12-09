@@ -5,6 +5,7 @@
 
 /* Header imports*/
 @import url('../blocks/header/header.css');
+@import url("../blocks/header/__content/header__content.css");
 @import url('../blocks/header/__logo-and-location-section/header__logo-and-location-section.css');
 @import url('../blocks/header/__user-actions-section/header__user-action-section.css');
 @import url('../blocks/header/__logo/header__logo.css');
@@ -20,6 +21,7 @@
 @import url('../blocks/header/__burger-button/header__burger-button.css');
 
 /* main section */
+@import url("../blocks/main/__content/main__content.css");
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/__title/content__title.css);
 @import url(../blocks/content/__subtitle/content__subtitle.css);
@@ -38,13 +40,13 @@
 @import url("../blocks/footer/__organization/footer__organization.css");
 @import url("../blocks/footer/__love/footer__love.css");
 @import url("../blocks/footer/__social/footer__socail.css");
-@import url("../blocks/footer/__list_title.css/footer__list_title.css");
+@import url("../blocks/footer/__list-title/footer__list-title.css");
 @import url("../blocks/footer/__list/footer__list.css");
 @import url("../blocks/footer/__li/footer__li.css");
 @import url("../blocks/footer/__link/footer__link.css");
-@import url("../blocks/footer/__link_icon/footer__link_icon.css");
-@import url("../blocks/footer/__list_social/footer__list_socail.css");
-@import url("../blocks/footer/__li_social/footer__li_social.css");
+@import url("../blocks/footer/__link-icon/footer__link-icon.css");
+@import url("../blocks/footer/__list-social/footer__list-socail.css");
+@import url("../blocks/footer/__li-social/footer__li-social.css");
 @import url("../blocks/footer/__icon/footer__icon.css");
 
 

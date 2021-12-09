@@ -8,9 +8,7 @@
   text-transform: lowercase;
   margin: 0;
   margin: 40px 0 40px 0px;
-  padding-left: 40px;
   align-self: flex-start;
-
 }
 
 
@@ -18,5 +16,4 @@
   .form-section__title {
     display: none;
   }
-  
 }

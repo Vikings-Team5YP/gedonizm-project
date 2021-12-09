@@ -1,22 +1,22 @@
 .header__support-button {
-    width: 155px;
+  width: 155px;
   height: 48px;
   background: #7100FF;
-border-radius: 26px;
-color: #fff;
-border: none;
-font-family: 'TT Firs Neue', Arial, sans-serif;;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 133%;
-cursor: pointer;
+  border-radius: 26px;
+  color: #FCFAF7;
+  border: none;
+  font-family: 'TT Firs Neue', Arial, sans-serif;;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 133%;
+  cursor: pointer;
 }
 
 
 @media screen and (max-width: 699px) {
   .header__support-button{
-      display: none;
+    display: none;
   }
-    
+
 }

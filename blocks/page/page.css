@@ -5,6 +5,8 @@
     display: grid;
     grid-template-rows: auto 1fr auto;
     justify-items: center;
+    font-family: 'TT Firs Neue', Arial, sans-serif;
+    color: #3B3748;
 }
 
 @media screen and (max-width: 599px) {
