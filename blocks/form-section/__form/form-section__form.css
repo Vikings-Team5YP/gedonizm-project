@@ -1,17 +1,16 @@
 .form-section__form {
   width: 531px;
   display: grid;
-  grid-column: 1fr;
-  grid-row: auto;
   gap: 12px;
-  
+ grid-template-rows: repeat(auto-fill, min-content);
+ grid-auto-rows: min-content;
 }
 
-@media screen and (max-width: 599px ) {
+@media screen and (max-width: 599px) {
   .form-section__form {
     width: 100%;
     gap: 16px;
-
+    box-shadow: inset 0px 1px 0px 0px #EBE9ED;
+    padding-top: 20px;
   }
-  
 }

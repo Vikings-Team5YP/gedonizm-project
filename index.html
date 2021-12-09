@@ -96,19 +96,19 @@
             <p class="form-section__description"></p>
           </div>
           <form class="form-section__form">
-            <label for="cafe-radio">
+            <label class="form-section__radio-label" for="cafe-radio">
               <input id="cafe-radio" type="radio" class="form-section__radio" name="category" value="cafe-step-two">
               <span class="form-section__category-radio"> кафе/бар/ресторан</span>
             </label>
-            <label for="lection-radio">
+            <label class="form-section__radio-label"  for="lection-radio">
               <input id="lection-radio" type="radio" class="form-section__radio" name="category" value="masterclass-step-two">
               <span class="form-section__category-radio"> мастер-класс/лекция</span>
             </label>
-            <label for="party-radio">
+            <label class="form-section__radio-label"  for="party-radio">
               <input id="party-radio" type="radio" class="form-section__radio" name="category" value="gathering-step-two">
               <span class="form-section__category-radio"> посиделки/вечеринка</span>
             </label>
-            <label for="other-radio">
+            <label class="form-section__radio-label"  for="other-radio">
               <input id="other-radio" type="radio" class="form-section__radio" name="category" value="other-step-two">
               <span class="form-section__category-radio"> другое</span>
             </label>
@@ -142,7 +142,7 @@
             </div>
           </div>
           <form class="form-section__form form-section__form_step_2">
-            <label style="height:fit-content;">
+            <label class="form-section__radio-label" >
               <input type="radio" class="form-section__radio" name="category" checked>
               <span class="form-section__category-radio"> кафе/бар/ресторан</span>
             </label>
@@ -164,8 +164,8 @@
             </div>
             <div class="form-section__labeled-input">
               <label for="description" class="form-section__label">описание</label>
-              <input id="description" class="form-section__input" type="text"
-                placeholder="Укажите, что из меню будет принимать участие в акции">
+              <textarea id="description" class="form-section__input"
+                placeholder="Укажите, что из меню будет принимать участие в акции"></textarea>
             </div>
             <div class="form-section__buttons">
               <button type="button" class="form-section__button form-section__button_type_transparent navigation-button" value="step-one">назад</button>
@@ -215,8 +215,9 @@
             </div>
             <div class="form-section__labeled-input">
               <label for="invitation-text" class="form-section__label">описание</label>
-              <input id="invitation-text" class="form-section__input" type="text"
+              <textarea id="invitation-text" class="form-section__input form-section__text-area"
                 placeholder="Напишите небольшое приглашение своим посетителям. Людям нравятся простые обращения, дружественный тон ">
+              </textarea>
             </div>
             <div class="form-section__buttons">
               <button type="button" class="form-section__button form-section__button_type_transparent navigation-button" value="cafe-step-two">назад</button>
@@ -241,7 +242,7 @@
         </div>
       </div>
       <form action="save" class="form-section__form form-section__form_step_2">
-        <label for="masterclass">
+        <label for="masterclass" class="form-section__radio-label" >
           <input id="masterclass" type="radio" class="form-section__radio" name ="category" checked>
           <span class="form-section__category-radio">мастер-класс/лекция</span>
         </label>
@@ -314,7 +315,8 @@
         </div>
         <div class="form-section__labeled-input">
           <label for="description-masterclass" class="form-section__label">описание</label>
-          <input id="description-masterclass" class="form-section__input" type="text" placeholder="Напишите небольшой анонс вашего местер-класса или лекции. Чем мероприятие будет полезно, чему посвящено">
+          <textarea id="description-masterclass" class="form-section__input form-section__text-area" placeholder="Напишите небольшой анонс вашего местер-класса или лекции. Чем мероприятие будет полезно, чему посвящено">
+          </textarea>
         </div>
         <div class="form-section__buttons">
           <button type="button" class="form-section__button form-section__button_type_transparent navigation-button" value="masterclass-step-two">назад</button>
@@ -339,7 +341,7 @@
             </div>
           </div>
           <form action="save" class="form-section__form form-section__form_step_2">
-            <label for="gathering">
+            <label for="gathering"  class="form-section__radio-label" >
               <input id="gathering" type="radio" class="form-section__radio" name ="category" checked>
               <span class="form-section__category-radio">посиделки/вечеринка</span>
             </label>
@@ -355,12 +357,12 @@
               <label for="gathering-radio_online" class="form-section__lebel_radio">
                 <input id="gathering-radio_online" type="radio" class="form-section__masterclass-radio" name ="gathering-category" checked>
                 <span class="form-section__pseudo-radio"></span>
-                онлайн
+                открытое мероприятие
               </label>
               <label for="gathering-radio_offline" class="form-section__lebel_radio">
                 <input id="gathering-radio_offline" type="radio" class="form-section__masterclass-radio" name ="gathering-category" >
                 <span class="form-section__pseudo-radio"></span>
-                оффлайн
+                закрытое мероприятие
               </label>
             </div>
             <div class="form-section__labeled-input">
@@ -420,7 +422,8 @@
             </div>
             <div class="form-section__labeled-input">
               <label for="description-gathering" class="form-section__label">описание</label>
-              <input id="description-gathering" class="form-section__input" type="text" placeholder="Напишите небольшой анонс вашего местер-класса или лекции. Чем мероприятие будет полезно, чему посвящено">
+              <textarea id="description-gathering" class="form-section__input form-section__text-area" placeholder="Напишите небольшой анонс вашего местер-класса или лекции. Чем мероприятие будет полезно, чему посвящено">
+              </textarea>
             </div>
             <div class="form-section__buttons">
               <button type="button" class="form-section__button form-section__button_type_transparent navigation-button" value="gathering-step-two">назад</button>
@@ -445,7 +448,7 @@
             </div>
           </div>
           <form class="form-section__form form-section__form_step_2">
-            <label style="height:fit-content;">
+            <label  class="form-section__radio-label"  style="height:fit-content;">
               <input type="radio" class="form-section__radio" name="category" checked>
               <span class="form-section__category-radio">другое</span>
             </label>
@@ -510,8 +513,9 @@
             </div>
             <div class="form-section__labeled-input">
               <label for="other-description" class="form-section__label">описание</label>
-              <input id="other-description" class="form-section__input" type="text"
+              <textarea id="other-description" class="form-section__input form-section__text-area"
                 placeholder="Напишите небольшое приглашение своим посетителям. Людям нравятся простые обращения, дружественный тон ">
+              </textarea>
             </div>
             <div class="form-section__buttons">
               <button type="button" class="form-section__button form-section__button_type_transparent navigation-button" value="other-step-two">назад</button>

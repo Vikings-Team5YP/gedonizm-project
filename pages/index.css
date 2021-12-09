@@ -72,7 +72,8 @@
 @import url('../blocks/form-section/__paragraph/form-section__paragraph.css');
 @import url('../blocks/form-section/__form/_step/form-section__form_step_2.css');
 @import url('../blocks/form-section/_active/form-section_active.css');
-
+@import url('../blocks/form-section/__radio__label/form-section__radio-label.css');
+@import url('../blocks/form-section/__text-area/__form-section__text-area.css');
 
 
 /* masterclass */

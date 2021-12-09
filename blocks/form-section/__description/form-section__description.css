@@ -1,11 +1,18 @@
 .form-section__description {
   font-family: TT Firs Neue;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 24px;
-margin: 0;
-display: grid;
-grid-template-columns: 1fr;
-gap: 14px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+@media screen and (max-width: 599px) {
+  .form-section__description {
+    padding-bottom: 20px;
+  }
+  
 }
