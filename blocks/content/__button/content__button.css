@@ -5,7 +5,6 @@
   font-size: 18px;
   line-height: 24px;
   max-width: 880px;
-  max-height: 48px;
   border-radius: 26px;
   background-color:#7100FF;
   color: #FCFAF7;
@@ -13,6 +12,7 @@
   padding: 12px 24px;
   margin: 32px 0 80px;
   cursor: pointer;
+  transition: background-color 0.25s ease-in-out;
 }
 @media (max-width: 900px){
   .content__button{
@@ -21,4 +21,9 @@
     padding: 12px 93.5px;
     margin: 20px;
   }
+}
+
+.content__button:hover {
+  background-color: #5100B8;
+  transition: background-color 0.25s ease-in-out;
 }

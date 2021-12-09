@@ -11,6 +11,8 @@
   font-size: 18px;
   line-height: 133%;
   cursor: pointer;
+  transition: background-color 0.25s ease-in-out;
+
 }
 
 
@@ -19,4 +21,8 @@
     display: none;
   }
 
+}
+.header__support-button:hover {
+  background-color: #5100B8;
+  transition: background-color 0.25s ease-in-out;
 }
