@@ -1,12 +1,11 @@
 .form-section__subtitle {
-font-family: TT Firs Neue;
-font-style: normal;
-font-weight: 500;
-font-size: 48px;
-line-height: 52px;
-margin: 0;
-margin-bottom: 12px;
-
+  font-family: TT Firs Neue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 52px;
+  margin: 0;
+  margin-bottom: 12px;
 }
 
 @media screen and (max-width: 599px) {
