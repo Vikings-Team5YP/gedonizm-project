@@ -32,3 +32,13 @@ function openSection(sectionClassName) {
   const sectionToOpen = allSectionArray.find(section => section.classList.contains(sectionClassName));
   sectionToOpen.classList.add('form-section_active');
 }
+
+// работа кнопки в выборе категории
+const formChoseCategory = document.querySelector(".step-one");
+const radioButtonsCategory = formChoseCategory.querySelectorAll('.form-section__radio')
+radioButtonsCategory.forEach((radioButton) =>{
+    radioButton.addEventListener('click', (event) => {
+      categoryNavigationButton.classList.remove('form-section__button_type_transparent')
+      categoryNavigationButton.classList.add('form-section__button_type_colored')
+    })
+  });
