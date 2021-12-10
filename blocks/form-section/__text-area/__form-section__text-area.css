@@ -1,3 +1,4 @@
 .form-section__text-area {
     min-height: 96px;
+    overflow: hidden;
 }

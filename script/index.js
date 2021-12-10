@@ -35,13 +35,10 @@ function openSection(sectionClassName) {
 
 // работа кнопки в выборе категории
 const formChoseCategory = document.querySelector(".step-one");
-const buttonNext = formChoseCategory.querySelector(".category-navigation-button");
 const radioButtonsCategory = formChoseCategory.querySelectorAll('.form-section__radio')
 radioButtonsCategory.forEach((radioButton) =>{
     radioButton.addEventListener('click', (event) => {
-      buttonNext.classList.remove('form-section__button_type_transparent')
-      buttonNext.classList.add('form-section__button_type_colored')
+      categoryNavigationButton.classList.remove('form-section__button_type_transparent')
+      categoryNavigationButton.classList.add('form-section__button_type_colored')
     })
   });
-
-  //проверка на заполнение input
