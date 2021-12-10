@@ -1,5 +1,5 @@
 .form-section__description {
-  font-family: TT Firs Neue;
+  font-family: 'TT Firs Neue', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -14,5 +14,5 @@
   .form-section__description {
     padding-bottom: 20px;
   }
-  
+
 }

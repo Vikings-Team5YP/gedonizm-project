@@ -20,7 +20,6 @@
   .header__support-button{
     display: none;
   }
-
 }
 .header__support-button:hover {
   background-color: #5100B8;

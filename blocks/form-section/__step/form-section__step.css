@@ -1,18 +1,18 @@
 .form-section__step {
-  font-family: TT Firs Neue;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 24px;
-display: inline-block;
-align-self: flex-start;
+  font-family: 'TT Firs Neue', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  display: inline-block;
+  align-self: flex-start;
 }
 
 @media screen and (max-width: 899px) {
  .form-section__step {
    padding-top: 20px;
  }
-  
+
 }
 
 @media screen and (max-width: 599px) {
