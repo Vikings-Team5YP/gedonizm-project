@@ -2,3 +2,13 @@
   gap: 32px;
 
 }
+
+
+
+@media screen and (max-width: 599px) {
+  .form-section__form_step_2 {
+    gap: 17px;
+    padding-top: 18px
+  }
+  
+}

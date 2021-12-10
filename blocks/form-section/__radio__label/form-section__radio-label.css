@@ -1,7 +1,17 @@
+.form-section__radio-label:last-of-type {
+  padding-bottom: 9px;
+}
+
+
 @media screen and (max-width: 599px) {
   .form-section__radio-label {
     padding: 0 20px;
-  }
+    }
+    .form-section__radio-label:last-of-type {
+      padding-bottom: 22px;
+    }
+
+    
 }
 
 
