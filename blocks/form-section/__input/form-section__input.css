@@ -26,3 +26,7 @@
   border-color: #7100FF;
   transition: border-color 0.25s ease-in-out;
 }
+
+.form-section__input:hover {
+  opacity: 50%;
+}

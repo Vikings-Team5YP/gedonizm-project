@@ -71,6 +71,7 @@
 @import url('../blocks/form-section/__labeled-input/form-section__labeled-input.css');
 @import url('../blocks/form-section/__label/form-section__label.css');
 @import url('../blocks/form-section/__input/form-section__input.css');
+@import url('../blocks/form-section/__input/_error/form-section__input_error.css');
 @import url('../blocks/form-section/__paragraph/form-section__paragraph.css');
 @import url('../blocks/form-section/__form/_step/form-section__form_step_2.css');
 @import url('../blocks/form-section/_active/form-section_active.css');

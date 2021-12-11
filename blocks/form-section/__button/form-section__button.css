@@ -26,4 +26,5 @@
   background-color: #EBE9ED;
   border-color: #EBE9ED;
   color: #96949E;
+  pointer-events: none;
 }

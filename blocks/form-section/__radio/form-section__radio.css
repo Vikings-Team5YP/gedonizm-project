@@ -16,4 +16,11 @@ padding: 12px 0 0;
   background-image: url('../../../images/check-mark.svg');
   background-position: 95% ;
   background-repeat: no-repeat;
+  transition: background-color 0.25s ease-in-out;
+}
+
+
+.form-section__radio:checked:hover +span {
+  background-color: #5100B8;
+  transition: background-color 0.25s ease-in-out;
 }

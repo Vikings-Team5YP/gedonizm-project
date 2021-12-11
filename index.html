@@ -121,7 +121,7 @@
 
             <div class="form-section__buttons">
               <button type="button" class="form-section__button form-section__button_type_transparent navigation-button" value="main-section">отмена</button>
-              <button type="button" class="form-section__button form-section__button_type_transparent navigation-button category-navigation-button">далее</button>
+              <button type="button" class="form-section__button form-section__button_type_colored navigation-button category-navigation-button" disabled>далее</button>
             </div>
           </form>
         </div>
@@ -152,24 +152,24 @@
               </label>
             <div class="form-section__labeled-input">
               <label for="city" class="form-section__label">город</label>
-              <input id="city" class="form-section__input" type="text" placeholder="выберите из списка">
+              <input id="city" class="form-section__input" type="text" placeholder="выберите из списка"  required>
             </div>
             <div class="form-section__labeled-input">
               <label for="place-name" class="form-section__label">название заведения</label>
-              <input id="place-name" class="form-section__input" type="text" placeholder="введите название заведения">
+              <input id="place-name" class="form-section__input" type="text" placeholder="введите название заведения"  required>
             </div>
             <div class="form-section__labeled-input">
               <label for="contact-name" class="form-section__label">контактное лицо</label>
-              <input id="contact-name" class="form-section__input" type="text" placeholder="введите ФИО">
+              <input id="contact-name" class="form-section__input" type="text" placeholder="введите ФИО"  required>
             </div>
             <div class="form-section__labeled-input">
               <label for="contact-phone" class="form-section__label">телефон для связи с организатором</label>
-              <input id="contact-phone" class="form-section__input" type="tel" value="+7(">
+              <input id="contact-phone" class="form-section__input" type="tel" value="+7("  required>
             </div>
             <div class="form-section__labeled-input">
               <label for="description" class="form-section__label">описание</label>
               <textarea id="description" class="form-section__input form-section__text-area"
-                placeholder="Укажите, что из меню будет принимать участие в акции"></textarea>
+                placeholder="Укажите, что из меню будет принимать участие в акции"  required></textarea>
             </div>
             <div class="form-section__buttons">
               <button type="button" class="form-section__button form-section__button_type_transparent navigation-button" value="step-one">назад</button>

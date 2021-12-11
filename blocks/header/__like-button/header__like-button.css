@@ -5,3 +5,7 @@
     text-decoration: none;
     color: #3B3748;
 }
+
+.header__like-button:hover {
+  opacity: 50%;
+}
