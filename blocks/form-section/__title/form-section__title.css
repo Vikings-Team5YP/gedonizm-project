@@ -1,5 +1,5 @@
 .form-section__title {
-  font-family: 'TT Firs Neue', Arial, sans-serif;
+  font-family: "TT Firs Neue", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 96px;
@@ -10,7 +10,6 @@
   margin: 40px 0 40px 0px;
   align-self: flex-start;
 }
-
 
 @media screen and (max-width: 899px) {
   .form-section__title {

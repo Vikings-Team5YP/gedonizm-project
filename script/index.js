@@ -42,10 +42,6 @@ const radioButtonsCategory = formChoseCategory.querySelectorAll(
 radioButtonsCategory.forEach((radioButton) => {
   radioButton.addEventListener("click", (event) => {
     categoryNavigationButton.removeAttribute("disabled");
-
-    // categoryNavigationButton.classList.remove('form-section__button_type_transparent')
-    // categoryNavigationButton.classList.add('form-section__button_type_colored')
-
   });
 });
 

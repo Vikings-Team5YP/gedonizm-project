@@ -1,4 +1,4 @@
-.form-section__pseudo-radio{
+.form-section__pseudo-radio {
   width: 22px;
   height: 22px;
   display: inline-block;
@@ -6,9 +6,16 @@
   background-image: url("../../../images/radio.svg");
   background-repeat: no-repeat;
   background-size: contain;
- padding-right: 9px;
+  padding-right: 9px;
 }
 
-.form-section__masterclass-radio:checked + .form-section__pseudo-radio{
+.form-section__masterclass-radio:checked + .form-section__pseudo-radio {
   background-image: url("../../../images/radio_active.svg");
+}
+
+@media screen and (max-width: 599px) {
+  .form-section__pseudo-radio {
+    width: 20px;
+    height: 20px;
+  }
 }

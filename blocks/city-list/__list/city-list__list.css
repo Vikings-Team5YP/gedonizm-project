@@ -1,13 +1,13 @@
 .city-list__list {
-    color: #3B3748;
-    background-color: #FFD400;
-    border:none;
-    list-style: none;
-    font-family: 'TT Firs Neue', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 133%;
-    appearance: none;
-    cursor: pointer;
+  color: #3b3748;
+  background-color: #ffd400;
+  border: none;
+  list-style: none;
+  font-family: "TT Firs Neue", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 133%;
+  appearance: none;
+  cursor: pointer;
 }

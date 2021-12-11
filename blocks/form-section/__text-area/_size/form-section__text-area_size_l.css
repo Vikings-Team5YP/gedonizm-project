@@ -1,0 +1,9 @@
+.form-section__text-area_size_l {
+  min-height: 132px;
+}
+
+@media screen and (max-width: 599px) {
+  .form-section__text-area_size_l {
+    min-height: 100px;
+  }
+}

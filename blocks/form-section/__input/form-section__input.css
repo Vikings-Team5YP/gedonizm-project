@@ -3,8 +3,8 @@
   padding: 10px 24px;
   border-radius: 26px;
   width: 100%;
-  border: 2px solid #96949E;
-  font-family: 'TT Firs Neue', Arial, sans-serif;
+  border: 2px solid #96949e;
+  font-family: "TT Firs Neue", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -14,16 +14,15 @@
 }
 
 @media screen and (max-width: 599px) {
-.form-section__input{
-
-  font-size: 16px;
-  line-height: 20px;
-}
+  .form-section__input {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
 
 .form-section__input:focus {
   outline: none;
-  border-color: #7100FF;
+  border-color: #7100ff;
   transition: border-color 0.25s ease-in-out;
 }
 

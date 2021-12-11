@@ -2,12 +2,11 @@
   display: none;
   flex-direction: column;
   align-items: center;
-  background-color: #FCFAF7;
+  background-color: #fcfaf7;
   height: 100%;
 }
 
 @media screen and (max-width: 599px) {
   .form-section {
-  
   }
 }

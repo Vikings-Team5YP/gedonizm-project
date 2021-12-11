@@ -1,17 +1,17 @@
 .form-section__label {
-  font-family: 'TT Firs Neue', Arial, sans-serif;
+  font-family: "TT Firs Neue", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 24px;
   padding-left: 24px;
   padding-bottom: 8px;
-  color: #96949E;
+  color: #96949e;
 }
 
-@media screen and (max-width: 599px ) {
-.form-section__label{
-  font-size: 16px;
-  line-height: 20px;
-}
+@media screen and (max-width: 599px) {
+  .form-section__label {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }

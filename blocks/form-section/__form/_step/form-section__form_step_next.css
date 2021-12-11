@@ -1,4 +1,4 @@
-.form-section__form_step_2 {
+.form-section__form_step_next {
   gap: 32px;
 
 }
@@ -6,7 +6,7 @@
 
 
 @media screen and (max-width: 599px) {
-  .form-section__form_step_2 {
+  .form-section__form_step_next {
     gap: 17px;
     padding-top: 18px
   }

@@ -1,13 +1,12 @@
-.footer{
-    background-color: #EBE9ED;
-    padding: 80px 0;
-    width: 100%;
-    font-family: 'TT Firs Neue', Arial, sans-serif;
-
+.footer {
+  background-color: #ebe9ed;
+  padding: 80px 0;
+  width: 100%;
+  font-family: "TT Firs Neue", Arial, sans-serif;
 }
 
-@media screen and (max-width: 599px){
-  .footer{
+@media screen and (max-width: 800px) {
+  .footer {
     display: none;
   }
 }

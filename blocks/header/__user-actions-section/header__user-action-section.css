@@ -8,13 +8,13 @@
 }
 
 @media screen and (max-width: 1124px) {
-  .header__user-action-section{
+  .header__user-action-section {
     flex-basis: 400px;
   }
 }
 
 @media screen and (max-width: 699px) {
-  .header__user-action-section{
+  .header__user-action-section {
     flex-basis: 216px;
   }
 }

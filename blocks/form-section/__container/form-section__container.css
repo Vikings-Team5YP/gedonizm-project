@@ -9,13 +9,10 @@
   .form-section__container {
     flex-direction: column;
   }
-
 }
 
 @media screen and (max-width: 599px) {
   .form-section__container {
     margin-bottom: 0;
   }
-
 }
-
