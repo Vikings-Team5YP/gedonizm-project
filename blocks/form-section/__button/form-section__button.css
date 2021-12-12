@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 599px) {
   .form-section__button {
-    width: 154px;
+    width: 43%;
     font-size: 16px;
     line-height: 20px;
   }

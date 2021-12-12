@@ -61,6 +61,7 @@
 @import url("../blocks/form-section/__category-radio/form-section__category-radio.css");
 @import url("../blocks/form-section/__form/form-section__form.css");
 @import url("../blocks/form-section/__buttons/form-section__buttons.css");
+@import url("../blocks/form-section/__buttons/_position/form-section__buttons_position_fixed.css");
 @import url("../blocks/form-section/__button/form-section__button.css");
 @import url("../blocks/form-section/__button/_type/form-section__button_type_colored.css");
 @import url("../blocks/form-section/__button/_type/form-section__button_type_transparent.css");

@@ -4,9 +4,11 @@
   align-items: center;
   background-color: #fcfaf7;
   height: 100%;
+  padding-bottom: 39px;
 }
 
 @media screen and (max-width: 599px) {
   .form-section {
+    padding-bottom: 0;
   }
 }

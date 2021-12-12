@@ -7,6 +7,11 @@
     padding: 0 20px;
   }
   .form-section__radio-label:last-of-type {
-    padding-bottom: 10px;
+    padding-bottom: 21px;
   }
+}
+
+
+.form-section__radio-label:first-child {
+  padding-top: 12px;
 }
