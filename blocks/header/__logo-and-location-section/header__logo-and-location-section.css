@@ -1,0 +1,9 @@
+.header__logo-and-location-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-basis: 308px;
+  justify-content: space-between;
+  padding-right: 40px;
+  flex-shrink: 5;
+}

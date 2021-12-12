@@ -1,0 +1,7 @@
+.form-section__lebel_radio_position_large {
+  padding-bottom: 40px;
+}
+
+.form-section__lebel_radio_position_large:last-child {
+  padding-bottom: 9px;
+}

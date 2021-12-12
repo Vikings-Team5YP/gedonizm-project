@@ -1,0 +1,10 @@
+.footer__organization{
+  grid-area: organization;
+
+}
+
+@media screen and (max-width: 500px) {
+  .footer__organization{
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,13 @@
+.form-section__button_type_transparent {
+  border: 2px solid #3B3748;
+  transition: border-color 0.25s ease-in-out;
+  transition: color 0.25s ease-in-out;
+}
+
+.form-section__button_type_transparent:hover {
+  border-color: #5100B8;
+  color: #5100B8;
+  transition: border-color 0.25s ease-in-out;
+  transition: color 0.25s ease-in-out;
+
+}

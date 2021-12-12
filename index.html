@@ -1,0 +1,1260 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Гедонизм.Участникам.</title>
+  </head>
+
+  <body class="page">
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-and-location-section">
+          <img src="./images/logo.svg" alt="" class="header__logo" />
+          <div class="city-list">
+            <img src="./images/place-mark.svg" alt="" class="city-list__mark" />
+            <select
+              name="city_selection"
+              id="city_selection"
+              class="city-list__list"
+            >
+              <option value="">Санкт-Петербург</option>
+              <option value="">Екатеринбург</option>
+              <option value="">Москва</option>
+            </select>
+          </div>
+        </div>
+        <nav class="header__nav">
+          <ul class="header__links">
+            <li><a class="header__link" href="">куда пойти</a></li>
+            <li><a class="header__link" href="">стать участником</a></li>
+            <li><a class="header__link" href="">о фестивале</a></li>
+          </ul>
+        </nav>
+        <div class="header__user-action-section">
+          <div class="header__like-button">
+            <img
+              src="./images/like-icon.svg"
+              alt=""
+              class="header__like-icon"
+            />
+            <a href="" class="header__like-button">хочу пойти</a>
+          </div>
+          <button type="button" class="header__support-button">
+            поддержать
+          </button>
+          <button class="header__burger-button" type="button"></button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="main__content">
+        <h1 class="form-section__title">стать участником</h1>
+
+        <section class="form-section main-section form-section_active">
+          <div class="form-section__info-and-form-container">
+            <h2 class="content__title">стать участником</h2>
+            <h3 class="content__subtitle">как участвовать?</h3>
+            <ul class="content__list">
+              <li class="content__container">
+                <p class="content__number">1</p>
+                <h3 class="content__heading">выбор категории</h3>
+                <p class="content__text">
+                  Определите, как вы хотите поддержать акцию: продавать напитки,
+                  блюда, провести мастер-класс или каким-то другим способом
+                </p>
+              </li>
+              <li class="content__container">
+                <p class="content__number">2</p>
+                <h3 class="content__heading">фото и описание</h3>
+                <p class="content__text">
+                  Подготовьте описание и фото вашего заведения. Это нужно для
+                  создания карточки в нашем каталоге событий
+                </p>
+              </li>
+              <li class="content__container">
+                <p class="content__number">3</p>
+                <h3 class="content__heading">ссылки и соцсети</h3>
+                <p class="content__text">
+                  Опубликуйте ссылку на вашу карточку в соцсетях, расскажите у
+                  себя на сайте, чтобы больше людей узнали о вашем участии
+                </p>
+              </li>
+              <li class="content__container">
+                <p class="content__number">4</p>
+                <h3 class="content__heading">координатор</h3>
+                <p class="content__text">
+                  Далее с вами свяжется координатор акции, который будет
+                  помогать по любым вопросам до и во время акции
+                </p>
+              </li>
+              <li class="content__container">
+                <p class="content__number">5</p>
+                <h3 class="content__heading">Перевод средств</h3>
+                <p class="content__text">
+                  После акции переведите собранные пожертвования в Ночлежку
+                  через сайт или по безналичному расчету
+                </p>
+              </li>
+            </ul>
+            <div class="content__box">
+              <button
+                type="button"
+                class="content__button navigation-button"
+                value="step-one"
+              >
+                заполнить форму
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="form-section step-one">
+          <div class="form-section__info-and-form-container">
+            <span class="form-section__step">шаг 1 из 4</span>
+            <div class="form-section__container">
+              <div class="form-section__info">
+                <h2 class="form-section__subtitle">выберите категорию</h2>
+                <p class="form-section__description"></p>
+              </div>
+              <form class="form-section__form">
+                <label class="form-section__radio-label" for="cafe-radio">
+                  <input
+                    id="cafe-radio"
+                    type="radio"
+                    class="form-section__radio"
+                    name="category"
+                    value="cafe-step-two"
+                  />
+                  <span class="form-section__category-radio">
+                    кафе/бар/ресторан</span
+                  >
+                </label>
+                <label class="form-section__radio-label" for="lection-radio">
+                  <input
+                    id="lection-radio"
+                    type="radio"
+                    class="form-section__radio"
+                    name="category"
+                    value="masterclass-step-two"
+                  />
+                  <span class="form-section__category-radio">
+                    мастер-класс/лекция</span
+                  >
+                </label>
+                <label class="form-section__radio-label" for="party-radio">
+                  <input
+                    id="party-radio"
+                    type="radio"
+                    class="form-section__radio"
+                    name="category"
+                    value="gathering-step-two"
+                  />
+                  <span class="form-section__category-radio">
+                    посиделки/вечеринка</span
+                  >
+                </label>
+                <label class="form-section__radio-label" for="other-radio">
+                  <input
+                    id="other-radio"
+                    type="radio"
+                    class="form-section__radio"
+                    name="category"
+                    value="other-step-two"
+                  />
+                  <span class="form-section__category-radio"> другое</span>
+                </label>
+
+                <div class="form-section__buttons form-section__buttons_position_fixed">
+                  <button
+                    type="button"
+                    class="
+                      form-section__button form-section__button_type_transparent
+                      navigation-button
+                    "
+                    value="main-section"
+                  >
+                    отмена
+                  </button>
+                  <button
+                    type="button"
+                    class="
+                      form-section__button form-section__button_type_colored
+                      navigation-button
+                      category-navigation-button
+                    "
+                    disabled
+                  >
+                    далее
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <section class="form-section cafe-step-two">
+          <div class="form-section__info-and-form-container">
+            <span class="form-section__step">шаг 2 из 4</span>
+            <div class="form-section__container">
+              <div class="form-section__info">
+                <h2 class="form-section__subtitle">заполните форму</h2>
+                <div class="form-section__description">
+                  Для участия вы можете выбрать:
+                  <ul class="form-section__ul">
+                    <li class="form-section__ul-li">
+                      определенную позицию из меню
+                    </li>
+                    <li class="form-section__ul-li">группу позиций</li>
+                    <li class="form-section__ul-li">
+                      процент от продаж определенных позиций или всего меню
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <form class="form-section__form form-section__form_step_next">
+                <label class="form-section__radio-label">
+                  <input
+                    type="radio"
+                    class="form-section__radio"
+                    name="category"
+                    checked
+                  />
+                  <span class="form-section__category-radio">
+                    кафе/бар/ресторан</span
+                  >
+                </label>
+                <div class="form-section__labeled-input">
+                  <label for="city" class="form-section__label">город</label>
+                  <input
+                    id="city"
+                    class="form-section__input"
+                    type="text"
+                    placeholder="выберите из списка"
+                    required
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="place-name" class="form-section__label"
+                    >название заведения</label
+                  >
+                  <input
+                    id="place-name"
+                    class="form-section__input"
+                    type="text"
+                    placeholder="введите название заведения"
+                    required
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="contact-name" class="form-section__label"
+                    >контактное лицо</label
+                  >
+                  <input
+                    id="contact-name"
+                    class="form-section__input"
+                    type="text"
+                    placeholder="введите ФИО"
+                    required
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="contact-phone" class="form-section__label"
+                    >телефон для связи с организатором</label
+                  >
+                  <input
+                    id="contact-phone"
+                    class="form-section__input"
+                    type="tel"
+                    value="+7("
+                    required
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="description" class="form-section__label"
+                    >описание</label
+                  >
+                  <textarea
+                    id="description"
+                    class="
+                      form-section__input
+                      form-section__text-area
+                      form-section__text-area_size_l
+                    "
+                    placeholder="Укажите, что из меню будет принимать участие в акции"
+                    required
+                  ></textarea>
+                </div>
+                <div class="form-section__buttons">
+                  <button
+                    type="button"
+                    class="
+                      form-section__button form-section__button_type_transparent
+                      navigation-button
+                    "
+                    value="step-one"
+                  >
+                    назад
+                  </button>
+                  <button
+                    type="button"
+                    class="
+                      form-section__button form-section__button_type_colored
+                      navigation-button
+                    "
+                    value="cafe-step-three"
+                  >
+                    далее
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <section class="form-section cafe-step-three">
+          <div class="form-section__info-and-form-container">
+            <span class="form-section__step">шаг 3 из 4</span>
+            <div class="form-section__container">
+              <div class="form-section__info">
+                <h2 class="form-section__subtitle">
+                  укажите контакты и часы работы
+                </h2>
+                <p class="form-section__description">
+                  Эти данные появятся в описании карточки вашего мероприятия в
+                  нашем каталоге событий
+                </p>
+              </div>
+              <form class="form-section__form form-section__form_step_next">
+                <div class="form-section__labeled-input">
+                  <label for="work-time" class="form-section__label"
+                    >часы работы заведения</label
+                  >
+                  <input
+                    id="work-time"
+                    class="form-section__input"
+                    type="text"
+                    placeholder="например: 10:00-13:00, 13:00-19:00"
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="adress" class="form-section__label"
+                    >адрес заведения</label
+                  >
+                  <input
+                    id="adress"
+                    class="form-section__input"
+                    type="text"
+                    placeholder="каждый адрес с новой строки"
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="place-phone" class="form-section__label"
+                    >номер телефона заведения</label
+                  >
+                  <input
+                    id="place-phone"
+                    class="form-section__input"
+                    type="tel"
+                    value="+7("
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="place-url" class="form-section__label"
+                    >ссылка на сайт</label
+                  >
+                  <input
+                    id="place-url"
+                    class="form-section__input"
+                    type="url"
+                    placeholder="https://"
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="place-social" class="form-section__label"
+                    >ссылки на соцсети</label
+                  >
+                  <input
+                    id="place-social"
+                    class="form-section__input"
+                    type="text"
+                    placeholder="каждую ссылку с новой строки"
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="invitation-text" class="form-section__label"
+                    >описание</label
+                  >
+                  <textarea
+                    id="invitation-text"
+                    class="form-section__input form-section__text-area"
+                    placeholder="Напишите небольшое приглашение своим посетителям. Людям нравятся простые обращения, дружественный тон "
+                  ></textarea>
+                </div>
+                <div class="form-section__buttons">
+                  <button
+                    type="button"
+                    class="
+                      form-section__button form-section__button_type_transparent
+                      navigation-button
+                    "
+                    value="cafe-step-two"
+                  >
+                    назад
+                  </button>
+                  <button
+                    type="button"
+                    class="
+                      form-section__button form-section__button_type_colored
+                      navigation-button
+                    "
+                  >
+                    далее
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <section class="form-section masterclass-step-two">
+          <div class="form-section__info-and-form-container">
+            <span class="form-section__step">шаг 2 из 4</span>
+            <div class="form-section__container">
+              <div class="form-section__info">
+                <h2 class="form-section__subtitle">заполните форму</h2>
+                <div class="form-section__description">
+                  <p class="form-section-paragraph">
+                    Определитесь с типом мероприятия — лекция, консультация или
+                    мастер-класс.
+                  </p>
+                  <p class="form-section-paragraph">
+                    Когда люди удут покупать билеты, вам будут приходить
+                    уведомления на электронную почту
+                  </p>
+                </div>
+              </div>
+              <form
+                action="save"
+                class="form-section__form form-section__form_step_next"
+              >
+                <label for="masterclass" class="form-section__radio-label">
+                  <input
+                    id="masterclass"
+                    type="radio"
+                    class="form-section__radio"
+                    name="category"
+                    checked
+                  />
+                  <span class="form-section__category-radio"
+                    >мастер-класс/лекция</span
+                  >
+                </label>
+                <div class="form-section__radio-box">
+                  <label
+                    for="masterclass-radio_online"
+                    class="
+                      form-section__lebel_radio
+                      form-section__lebel_radio_position_large
+                    "
+                  >
+                    <input
+                      id="masterclass-radio_online"
+                      type="radio"
+                      class="form-section__masterclass-radio"
+                      name="masterclass-category"
+                      checked
+                    />
+                    <span class="form-section__pseudo-radio"></span>
+                    онлайн
+                  </label>
+                  <label
+                    for="masterclass-radio_offline"
+                    class="
+                      form-section__lebel_radio
+                      form-section__lebel_radio_position_large
+                    "
+                  >
+                    <input
+                      id="masterclass-radio_offline"
+                      type="radio"
+                      class="form-section__masterclass-radio"
+                      name="masterclass-category"
+                    />
+                    <span class="form-section__pseudo-radio"></span>
+                    оффлайн
+                  </label>
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="city-masterclass" class="form-section__label"
+                    >город</label
+                  >
+                  <input
+                    id="city-masterclass"
+                    class="form-section__input"
+                    type="text"
+                    placeholder="выберите из списка"
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="name-masterclass" class="form-section__label"
+                    >название мероприятия
+                  </label>
+                  <input
+                    id="name-masterclass"
+                    class="form-section__input"
+                    type="text"
+                    placeholder="введите название"
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="date-masterclass" class="form-section__label"
+                    >дата проведения</label
+                  >
+                  <input
+                    id="date-masterclass"
+                    class="form-section__input"
+                    type="text"
+                    placeholder="укажите дату в формате дд.мм.гггг"
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="initials-masterclass" class="form-section__label"
+                    >контактное лицо</label
+                  >
+                  <input
+                    id="initials-masterclass"
+                    class="form-section__input"
+                    type="text"
+                    placeholder="введите ФИО"
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="number-masterclass" class="form-section__label"
+                    >телефон для связи с организатором</label
+                  >
+                  <input
+                    id="number-masterclass"
+                    class="form-section__input"
+                    type="text"
+                    value="+7("
+                  />
+                </div>
+                <div class="form-section__buttons">
+                  <button
+                    type="button"
+                    class="
+                      form-section__button form-section__button_type_transparent
+                      navigation-button
+                    "
+                    value="step-one"
+                  >
+                    назад
+                  </button>
+                  <button
+                    type="button"
+                    class="
+                      form-section__button form-section__button_type_colored
+                      navigation-button
+                    "
+                    value="masterclass-step-three"
+                  >
+                    далее
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <section class="form-section masterclass-step-three">
+          <div class="form-section__info-and-form-container">
+            <span class="form-section__step">шаг 3 из 4</span>
+            <div class="form-section__container">
+              <div class="form-section__info">
+                <h2 class="form-section__subtitle">
+                  укажите контакты и часы работы
+                </h2>
+                <p class="form-section__description">
+                  Эти данные появятся в описании карточки вашего мероприятия в
+                  нашем каталоге событий
+                </p>
+              </div>
+              <form
+                action="save"
+                class="form-section__form form-section__form_step_next"
+              >
+                <div class="form-section__labeled-input">
+                  <label for="time-masterclass" class="form-section__label"
+                    >время проведения</label
+                  >
+                  <input
+                    id="time-masterclass"
+                    class="form-section__input"
+                    type="text"
+                    placeholder="например: 18:00-22:00"
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="adres-masterclass" class="form-section__label"
+                    >адрес проведения</label
+                  >
+                  <input
+                    id="adres-masterclass"
+                    class="form-section__input"
+                    type="text"
+                    placeholder="каждый адрес с новой строки"
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label
+                    for="number-for-masterclass"
+                    class="form-section__label"
+                    >номер телефона для бронирования</label
+                  >
+                  <input
+                    id="number-for-masterclass"
+                    class="form-section__input"
+                    type="text"
+                    value="+7("
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="price-masterclass" class="form-section__label"
+                    >стоимость участия</label
+                  >
+                  <input
+                    id="price-masterclass"
+                    class="form-section__input"
+                    type="text"
+                    placeholder="укажите стоимость в рублях"
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label
+                    for="description-masterclass"
+                    class="form-section__label"
+                    >описание</label
+                  >
+                  <textarea
+                    id="description-masterclass"
+                    class="form-section__input form-section__text-area"
+                    placeholder="Напишите небольшой анонс вашего местер-класса или лекции. Чем мероприятие будет полезно, чему посвящено"
+                  ></textarea>
+                </div>
+                <div class="form-section__buttons">
+                  <button
+                    type="button"
+                    class="
+                      form-section__button form-section__button_type_transparent
+                      navigation-button
+                    "
+                    value="masterclass-step-two"
+                  >
+                    назад
+                  </button>
+                  <button
+                    type="button"
+                    class="
+                      form-section__button form-section__button_type_colored
+                      navigation-button
+                    "
+                  >
+                    далее
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <section class="form-section gathering-step-two">
+          <div class="form-section__info-and-form-container">
+            <span class="form-section__step">шаг 2 из 4</span>
+            <div class="form-section__container">
+              <div class="form-section__info">
+                <h2 class="form-section__subtitle">заполните форму</h2>
+                <div class="form-section__description">
+                  <p class="form-section-paragraph">
+                    Организуйте свою посиделку, вечеринку или концерт.
+                  </p>
+                  <p class="form-section-paragraph">
+                    Пригласите друзей и тех, кто захочет помочь Ночлежке.
+                  </p>
+                  <p class="form-section-paragraph">
+                    Установите пожертвование, например кусочек пирога за любую
+                    комфортную сумму
+                  </p>
+                </div>
+              </div>
+              <form
+                action="save"
+                class="form-section__form form-section__form_step_next"
+              >
+                <label for="gathering" class="form-section__radio-label">
+                  <input
+                    id="gathering"
+                    type="radio"
+                    class="form-section__radio"
+                    name="category"
+                    checked
+                  />
+                  <span class="form-section__category-radio"
+                    >посиделки/вечеринка</span
+                  >
+                </label>
+                <div class="form-section__labeled-input">
+                  <label for="city-gathering" class="form-section__label"
+                    >город</label
+                  >
+                  <input
+                    id="city-gathering"
+                    class="form-section__input"
+                    type="text"
+                    placeholder="выберите из списка"
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="name-gathering" class="form-section__label"
+                    >название мероприятия
+                  </label>
+                  <input
+                    id="name-gathering"
+                    class="form-section__input"
+                    type="text"
+                    placeholder="введите название"
+                  />
+                </div>
+                <div class="form-section__radio-box">
+                  <label
+                    for="gathering-radio_online"
+                    class="form-section__lebel_radio"
+                  >
+                    <input
+                      id="gathering-radio_online"
+                      type="radio"
+                      class="form-section__masterclass-radio"
+                      name="gathering-category"
+                      checked
+                    />
+                    <span class="form-section__pseudo-radio"></span>
+                    открытое мероприятие
+                  </label>
+                  <span class="form-section__radio-description"
+                    >адрес отобразим в карточке события</span
+                  >
+                  <label
+                    for="gathering-radio_offline"
+                    class="form-section__lebel_radio"
+                  >
+                    <input
+                      id="gathering-radio_offline"
+                      type="radio"
+                      class="form-section__masterclass-radio"
+                      name="gathering-category"
+                    />
+                    <span class="form-section__pseudo-radio"></span>
+                    закрытое мероприятие
+                  </label>
+                  <span class="form-section__radio-description"
+                    >адрес увидят только, те кому вы оправите ссылку на
+                    событие</span
+                  >
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="date-gathering" class="form-section__label"
+                    >дата проведения</label
+                  >
+                  <input
+                    id="date-gathering"
+                    class="form-section__input"
+                    type="text"
+                    placeholder="укажите дату в формате дд.мм.гггг"
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="initials-gathering" class="form-section__label"
+                    >контактное лицо</label
+                  >
+                  <input
+                    id="initials-gathering"
+                    class="form-section__input"
+                    type="text"
+                    placeholder="введите ФИО"
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="number-gathering" class="form-section__label"
+                    >телефон для связи с организатором</label
+                  >
+                  <input
+                    id="number-gathering"
+                    class="form-section__input"
+                    type="text"
+                    value="+7("
+                  />
+                </div>
+                <div class="form-section__buttons">
+                  <button
+                    type="button"
+                    class="
+                      form-section__button form-section__button_type_transparent
+                      navigation-button
+                    "
+                    value="step-one"
+                  >
+                    назад
+                  </button>
+                  <button
+                    type="button"
+                    class="
+                      form-section__button form-section__button_type_colored
+                      navigation-button
+                    "
+                    value="gathering-step-three"
+                  >
+                    далее
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <section class="form-section gathering-step-three">
+          <div class="form-section__info-and-form-container">
+            <span class="form-section__step">шаг 3 из 4</span>
+            <div class="form-section__container">
+              <div class="form-section__info">
+                <h2 class="form-section__subtitle">
+                  укажите контакты и часы работы
+                </h2>
+                <p class="form-section__description">
+                  Эти данные появятся в описании карточки вашего мероприятия в
+                  нашем каталоге событий
+                </p>
+              </div>
+              <form
+                action="save"
+                class="form-section__form form-section__form_step_next"
+              >
+                <div class="form-section__labeled-input">
+                  <label for="time-gathering" class="form-section__label"
+                    >время проведения</label
+                  >
+                  <input
+                    id="time-gathering"
+                    class="form-section__input"
+                    type="text"
+                    placeholder="например: 18:00-22:00"
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="adres-gathering" class="form-section__label"
+                    >адрес проведения</label
+                  >
+                  <input
+                    id="adres-gathering"
+                    class="form-section__input"
+                    type="text"
+                    placeholder="каждый адрес с новой строки"
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="number-for-gathering" class="form-section__label"
+                    >номер телефона для бронирования</label
+                  >
+                  <input
+                    id="number-for-gathering"
+                    class="form-section__input"
+                    type="text"
+                    value="+7("
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="price-gathering" class="form-section__label"
+                    >стоимость участия</label
+                  >
+                  <input
+                    id="price-gathering"
+                    class="form-section__input"
+                    type="text"
+                    placeholder="укажите стоимость в рублях"
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="site-gathering" class="form-section__label"
+                    >ссылка на сайт</label
+                  >
+                  <input
+                    id="site-gathering"
+                    class="form-section__input"
+                    type="text"
+                    value="https://"
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="social-gathering" class="form-section__label"
+                    >ссылки на соцсети</label
+                  >
+                  <input
+                    id="social-gathering"
+                    class="form-section__input"
+                    type="text"
+                    placeholder="каждую ссылку с новой строки"
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="description-gathering" class="form-section__label"
+                    >описание</label
+                  >
+                  <textarea
+                    id="description-gathering"
+                    class="form-section__input form-section__text-area"
+                    placeholder="Напишите небольшой анонс вашего местер-класса или лекции. Чем мероприятие будет полезно, чему посвящено"
+                  ></textarea>
+                </div>
+                <div class="form-section__buttons">
+                  <button
+                    type="button"
+                    class="
+                      form-section__button form-section__button_type_transparent
+                      navigation-button
+                    "
+                    value="gathering-step-two"
+                  >
+                    назад
+                  </button>
+                  <button
+                    type="button"
+                    class="
+                      form-section__button form-section__button_type_colored
+                      navigation-button
+                    "
+                  >
+                    далее
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <section class="form-section other-step-two">
+          <div class="form-section__info-and-form-container">
+            <span class="form-section__step">шаг 2 из 4</span>
+            <div class="form-section__container">
+              <div class="form-section__info">
+                <h2 class="form-section__subtitle">заполните форму</h2>
+                <div class="form-section__description">
+                  <p class="form-section-paragraph">
+                    Организуйте свою посиделку, вечеринку или концерт.
+                  </p>
+                  <p class="form-section-paragraph">
+                    Пригласите друзей и тех, кто захочет помочь Ночлежке.
+                  </p>
+                  <p class="form-section-paragraph">
+                    Установите пожертвование, например кусочек пирога за любую
+                    комфортную сумму
+                  </p>
+                </div>
+              </div>
+              <form class="form-section__form form-section__form_step_next">
+                <label
+                  class="form-section__radio-label"
+                  style="height: fit-content"
+                >
+                  <input
+                    type="radio"
+                    class="form-section__radio"
+                    name="category"
+                    checked
+                  />
+                  <span class="form-section__category-radio">другое</span>
+                </label>
+                <div class="form-section__labeled-input">
+                  <label for="other-city" class="form-section__label"
+                    >город</label
+                  >
+                  <input
+                    id="other-city"
+                    class="form-section__input"
+                    type="text"
+                    placeholder="выберите из списка"
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="other-event-name" class="form-section__label"
+                    >название мероприятия</label
+                  >
+                  <input
+                    id="other-event-name"
+                    class="form-section__input"
+                    type="text"
+                    placeholder="введите название"
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="other-date" class="form-section__label"
+                    >дата проведения</label
+                  >
+                  <input
+                    id="other-date"
+                    class="form-section__input"
+                    type="text"
+                    placeholder="укажите дату в формате дд.мм.гггг"
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="other-contact-name" class="form-section__label"
+                    >контактное лицо</label
+                  >
+                  <input
+                    id="other-contact-name"
+                    class="form-section__input"
+                    type="url"
+                    placeholder="введите ФИО"
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="other-contact-phone" class="form-section__label"
+                    >номер телефона для связи с организатором</label
+                  >
+                  <input
+                    id="other-contact-phone"
+                    class="form-section__input"
+                    type="text"
+                    value="+7("
+                  />
+                </div>
+                <div class="form-section__buttons">
+                  <button
+                    type="button"
+                    class="
+                      form-section__button form-section__button_type_transparent
+                      navigation-button
+                    "
+                    value="step-one"
+                  >
+                    назад
+                  </button>
+                  <button
+                    type="button"
+                    class="
+                      form-section__button form-section__button_type_colored
+                      navigation-button
+                    "
+                    value="other-step-three"
+                  >
+                    далее
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <section class="form-section other-step-three">
+          <div class="form-section__info-and-form-container">
+            <span class="form-section__step">шаг 3 из 4</span>
+            <div class="form-section__container">
+              <div class="form-section__info">
+                <h2 class="form-section__subtitle">
+                  укажите контакты и часы работы
+                </h2>
+                <p class="form-section__description">
+                  Эти данные появятся в описании карточки вашего мероприятия в
+                  нашем каталоге событий
+                </p>
+              </div>
+              <form class="form-section__form form-section__form_step_next">
+                <div class="form-section__labeled-input">
+                  <label for="other-time" class="form-section__label"
+                    >время проведения</label
+                  >
+                  <input
+                    id="other-time"
+                    class="form-section__input"
+                    type="text"
+                    placeholder="например: 18:00-22:00"
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="other-adress" class="form-section__label"
+                    >адрес проведенияя</label
+                  >
+                  <input
+                    id="other-adress"
+                    class="form-section__input"
+                    type="text"
+                    placeholder="каждый адрес с новой строки"
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="other-book-phone" class="form-section__label"
+                    >номер телефона для бронирования</label
+                  >
+                  <input
+                    id="other-book-phone"
+                    class="form-section__input"
+                    type="tel"
+                    value="+7("
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="other-price" class="form-section__label"
+                    >стоимость участия</label
+                  >
+                  <input
+                    id="other-price"
+                    class="form-section__input"
+                    type="text"
+                    placeholder="укажите стоимость в рублях"
+                  />
+                </div>
+                <div class="form-section__labeled-input">
+                  <label for="other-description" class="form-section__label"
+                    >описание</label
+                  >
+                  <textarea
+                    id="other-description"
+                    class="form-section__input form-section__text-area"
+                    placeholder="Напишите небольшое приглашение своим посетителям. Людям нравятся простые обращения, дружественный тон "
+                  ></textarea>
+                </div>
+                <div class="form-section__buttons">
+                  <button
+                    type="button"
+                    class="
+                      form-section__button form-section__button_type_transparent
+                      navigation-button
+                    "
+                    value="other-step-two"
+                  >
+                    назад
+                  </button>
+                  <button
+                    type="button"
+                    class="
+                      form-section__button form-section__button_type_colored
+                      navigation-button
+                    "
+                  >
+                    далее
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__content">
+        <img
+          src="./images/emblemes.svg"
+          alt="Эмблема проекта"
+          class="footer__emblemes"
+        />
+        <nav class="footer__organization">
+          <h4 class="footer__list-title">организатор:</h4>
+          <ul class="footer__list">
+            <li class="footer__li">
+              <a
+                href="https://homeless.ru/"
+                target="_blank"
+                class="footer__link"
+                >Ночлежка<img
+                  src="./images/link.svg"
+                  alt="эмблема ссылки"
+                  class="footer__link-icon"
+              /></a>
+            </li>
+            <li class="footer__li">
+              <a href="mailto:info@hedonismfest.ru" class="footer__link"
+                >info@hedonismfest.ru</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer__love">
+          <h4 class="footer__list-title">сделано с любовью:</h4>
+          <ul class="footer__list">
+            <li class="footer__li">
+              <a
+                href="https://fastsol.digital/"
+                target="_blank"
+                class="footer__link"
+                >Fastsol Digital
+                <img
+                  src="./images/link.svg"
+                  alt="эмблема ссылки"
+                  class="footer__link-icon"
+              /></a>
+            </li>
+            <li class="footer__li">
+              <a href="https://shishki.co/" target="_blank" class="footer__link"
+                >shishki.collective<img
+                  src="./images/link.svg"
+                  alt="эмблема ссылки"
+                  class="footer__link-icon"
+              /></a>
+            </li>
+            <li class="footer__li">
+              <a
+                href="https://practicum.yandex.ru/"
+                target="_blank"
+                class="footer__link"
+                >студентами Яндекс.Практикума<img
+                  src="./images/link.svg"
+                  alt="эмблема ссылки"
+                  class="footer__link-icon"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer__social">
+          <h4 class="footer__list-title">мы в соцсетях:</h4>
+          <ul class="footer__list footer__list-social">
+            <li class="footer__li-social">
+              <a
+                href="https://ru-ru.facebook.com/"
+                target="_blank"
+                class="footer__link"
+                ><img
+                  src="./images/shape-fasebook.svg"
+                  alt="эмблема facebook"
+                  class="footer__icon"
+              /></a>
+            </li>
+            <li class="footer__li-social">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="footer__link"
+                ><img
+                  src="./images/shape-inst.svg"
+                  alt="эмблема instagram"
+                  class="footer__icon"
+              /></a>
+            </li>
+            <li class="footer__li-social">
+              <a href="https://vk.com/" target="_blank" class="footer__link"
+                ><img
+                  src="./images/shape-vk.svg"
+                  alt="эмблема VK"
+                  class="footer__icon"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="./script/index.js"></script>
+  </body>
+</html>

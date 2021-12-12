@@ -1,0 +1,17 @@
+.content__number{
+  font-family: 'TT Firs Neue', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  letter-spacing: -0.01em;
+  text-transform: lowercase;
+  margin: 20px 0 56px;
+  grid-area: number;
+}
+@media (max-width: 900px){
+  .content__number{
+    font-size: 24px;
+    line-height: 28px;
+    margin: 20px 0 0 20px;
+  }
+}

@@ -1,0 +1,31 @@
+.form-section__category-radio {
+  display: inline-block;
+  padding: 11px 24px;
+  border-radius: 26px;
+  width: 100%;
+  border: 2px solid #3b3748;
+  font-family: "TT Firs Neue", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  box-sizing: border-box;
+}
+
+.form-section__category-radio:hover {
+  border-color: #5100b8;
+  color: #5100b8;
+  transition: border-color 0.25s ease-in-out;
+  transition: color 0.25s ease-in-out;
+}
+
+@media screen and (max-width: 599px) {
+  .form-section__category-radio {
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 12px;
+    padding: 11px 18px;
+  }
+}
+
+

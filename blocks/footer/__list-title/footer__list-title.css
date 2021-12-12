@@ -1,0 +1,8 @@
+.footer__list-title{
+  margin: 0;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.125;
+  color: #3B3748;
+  letter-spacing: calc(-1em / 100);
+}

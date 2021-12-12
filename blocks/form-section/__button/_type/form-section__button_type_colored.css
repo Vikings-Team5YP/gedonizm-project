@@ -1,0 +1,11 @@
+.form-section__button_type_colored {
+  background-color: #7100FF;
+  color: #fff;
+}
+
+.form-section__button_type_colored:hover {
+  background-color: #5100B8;
+  transition: background-color 0.25s ease-in-out;
+}
+
+

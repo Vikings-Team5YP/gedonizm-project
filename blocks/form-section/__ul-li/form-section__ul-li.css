@@ -1,0 +1,14 @@
+.form-section__ul-li {
+  font-family: "TT Firs Neue", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 599px) {
+  .form-section__ul-li {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,25 @@
+.header__support-button {
+  width: 155px;
+  height: 48px;
+  background: #7100ff;
+  border-radius: 26px;
+  color: #fcfaf7;
+  border: none;
+  font-family: "TT Firs Neue", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 133%;
+  cursor: pointer;
+  transition: background-color 0.25s ease-in-out;
+}
+
+@media screen and (max-width: 699px) {
+  .header__support-button {
+    display: none;
+  }
+}
+.header__support-button:hover {
+  background-color: #5100b8;
+  transition: background-color 0.25s ease-in-out;
+}

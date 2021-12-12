@@ -1,0 +1,11 @@
+.header__like-icon {
+  width: 24px;
+  height: 21px;
+  padding-right: 8px;
+}
+
+@media screen and (max-width: 699px) {
+  .header__like-icon {
+    padding-right: 4px;
+  }
+}

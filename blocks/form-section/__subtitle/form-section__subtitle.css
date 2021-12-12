@@ -1,0 +1,16 @@
+.form-section__subtitle {
+  font-family: "TT Firs Neue", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 52px;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 599px) {
+  .form-section__subtitle {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}

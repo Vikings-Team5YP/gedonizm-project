@@ -1,0 +1,32 @@
+.form-section__input {
+  display: inline-block;
+  padding: 10px 24px;
+  border-radius: 26px;
+  width: 100%;
+  border: 2px solid #96949e;
+  font-family: "TT Firs Neue", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  box-sizing: border-box;
+  transition: border-color 0.25s ease-in-out;
+}
+
+@media screen and (max-width: 599px) {
+  .form-section__input {
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 18px;
+  }
+}
+
+.form-section__input:focus {
+  outline: none;
+  border-color: #7100ff;
+  transition: border-color 0.25s ease-in-out;
+}
+
+.form-section__input:hover {
+  opacity: 50%;
+}

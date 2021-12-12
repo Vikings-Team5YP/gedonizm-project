@@ -1,0 +1,28 @@
+.form-section__button {
+  border: none;
+  width: 204px;
+  background-color: transparent;
+  border-radius: 26px;
+  font-family: "TT Firs Neue", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  box-sizing: border-box;
+  padding: 12px 0;
+}
+
+@media screen and (max-width: 599px) {
+  .form-section__button {
+    width: 43%;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.form-section__button:disabled {
+  background-color: #ebe9ed;
+  border-color: #ebe9ed;
+  color: #96949e;
+  pointer-events: none;
+}

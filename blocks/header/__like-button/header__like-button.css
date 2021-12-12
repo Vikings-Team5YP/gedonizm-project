@@ -1,0 +1,11 @@
+.header__like-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: #3b3748;
+}
+
+.header__like-button:hover {
+  opacity: 50%;
+}

@@ -1,0 +1,21 @@
+.form-section__lebel_radio {
+  display: flex;
+  font-family: "TT Firs Neue", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  padding-bottom: 12px;
+  width: fit-content;
+}
+
+@media screen and (max-width: 599px) {
+  .form-section__lebel_radio {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.form-section__lebel_radio:hover {
+  opacity: 50%;
+}

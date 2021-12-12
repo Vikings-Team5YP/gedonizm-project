@@ -1,0 +1,16 @@
+.main__content {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1439px) {
+  .main__content {
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .main__content {
+    margin: 0;
+  }
+}

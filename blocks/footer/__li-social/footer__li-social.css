@@ -1,0 +1,6 @@
+.footer__li-social{
+  margin-left: 24px;
+}
+.footer__li-social:first-child{
+  margin-left: 0;
+}
